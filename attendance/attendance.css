@@ -1,0 +1,236 @@
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+/*
+.hme-content.hea{
+  color: #fff;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 27px;
+  box-shadow: 50px;
+
+}*/
+.hme-content  .sales-boxes{
+  padding-bottom: 10px;
+}
+
+.hme-content .sales-boxes .head{
+ color: #365C5C;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 27px;
+  box-shadow: 50px;
+  width:130px;
+}
+
+
+.hme-content .sales-boxes .today-punch{
+ font-size: 35px;
+ color: #2F4F4F;
+ height: 100px;
+ width: 80%;
+ margin-left:px;
+ margin-top: 10px;
+ margin-bottom:px;
+ margin-right: 30px;
+ background-color: #778899;
+ border-radius: 10px;
+}
+/*left punchin part*/
+.hme-content .sales-boxes .today-punch .note{
+ font-size:27px;
+ color:#fff;
+ margin-right:px;
+ margin-left:5px;
+ margin-top: 20px;
+ padding-top: 300px;
+}
+
+/*.hme-content .sales-boxes .today-punch .note .time{
+ font-size: 35px;
+ color:#fff;
+ margin-right: 50px;
+ margin-left: 50px;
+ margin-top: 20px;
+
+}*/
+
+/*right punchout part*/
+.hme-content .sales-boxes .today-punch .note1{
+ font-size:30 px;
+ color:#fff;
+ margin-right:px;
+ margin-left:10px;
+ margin-top: 20px;
+ padding-top: 300px;
+}
+
+/*.hme-content .sales-boxes .today-punch .note1 .time2{
+ font-size: 35px;
+ color:#ffff;
+ margin-right: 50px;
+ margin-left: 50px;
+ margin-top: 20px;
+
+}*/
+
+.hme-content .sales-boxes .sales-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sales-boxes .box .title{
+  font-size: 24px;
+  font-weight: 500;
+  /* margin-bottom: 10px; */
+}
+.sales-boxes .sales-details li.topic{
+  font-size: 20px;
+  font-weight: 500;
+}
+.sales-boxes .sales-details li{
+  list-style: none;
+  margin: 25px 0;
+}
+.sales-boxes .sales-details li a{
+  font-size: 18px;
+  color: #333;
+  font-size: 400;
+  text-decoration: none;
+}
+
+
+
+
+}
+/* Responsive Media Query */
+@media (max-width: 1240px) {
+  .sidebar{
+    width: 60px;
+  }
+  .sidebar.active{
+    width: 220px;
+  }
+  .home-section{
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  .sidebar.active ~ .home-section{
+    /* width: calc(100% - 220px); */
+    overflow: hidden;
+    left: 220px;
+  }
+  .home-section nav{
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  .sidebar.active ~ .home-section nav{
+    width: calc(100% - 220px);
+    left: 220px;
+  }
+}
+@media (max-width: 1150px) {
+  .hme-content .sales-boxes{
+    flex-direction: column;
+  }
+  .hme-content .sales-boxes .box{
+    width: 100%;
+    overflow-x: scroll;
+    margin-bottom: 30px;
+  }
+  .hme-content .sales-boxes .top-sales{
+    margin: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .overview-boxes .box{
+    width: calc(100% / 2 - 15px);
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 700px) {
+  nav .sidebar-button .dashboard,
+  nav .profile-details .admin_name,
+  nav .profile-details i{
+    display: none;
+  }
+  .home-section nav .profile-details{
+    height: 50px;
+    min-width: 40px;
+  }
+  .hme-content .sales-boxes .sales-details{
+    width: 560px;
+  }
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 35px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    /*min-width: 400px;*/
+     width: 1450px;
+
+
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    
+}
+.styled-table thead tr {
+    background-color: #A9A9A9;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 20px 30px;
+}
+.styled-table .heading {
+  color: #708090;
+
+
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.sales-boxes .heading{
+  color:  #2F4F4F;
+  margin-left: 50px;
+  size: 15px;
+
+}
+
+
+
+
+@media (max-width: 550px) {
+  .overview-boxes .box{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .sidebar.active ~ .home-section nav .profile-details{
+    display: none;
+  }
+}

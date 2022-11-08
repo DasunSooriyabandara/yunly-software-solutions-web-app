@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="css/registration.css">
+
+		<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-show-password/1.2.0/bootstrap-show-password.min.js" referrerpolicy="no-referrer"></script>
+	
+</head>
+<body>
+	
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter your first name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Enter your last name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Name With Initials</span>
+            <input type="text" placeholder="Enter your name with Initials" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Your NIC</span>
+            <input type="text" placeholder="Enter your NIC Number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter your Address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Password</span>
+
+				  <div class="wrapper form-group">
+				  
+				      <input type="password" id="password" placeholder="Enter your password" class="form-control" data-toggle="password" required>
+				      <!-- <span class="show-btn"><i class="fas fa-eye" onclick="show()"></i></span> -->
+				  </div>
+				    
+    
+          </div>
+
+
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+        
+
+				  <div class="wrapper">
+				  
+				      <input type="password" placeholder="confirm your password" required>
+				      <span class="show-btn"><i class="fas fa-eye"></i></span>
+				  </div>
+				    <script>
+				      const passField = document.querySelector("input");
+				      const showBtn = document.querySelector("span i");
+				      showBtn.onclick = (()=>{
+				        if(passField.type === "password"){
+				          passField.type = "text";
+				          showBtn.classList.add("hide-btn");
+				        }else{
+				          passField.type = "password";
+				          showBtn.classList.remove("hide-btn");
+				        }
+				      });
+				    </script>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+				   		$('#password').password('toggle');
+				   		// function show() {
+					    //   const passField = document.querySelector("input");
+					    //   const showBtn = document.querySelector("span i");
+
+					    //   showBtn.onclick = (()=>{
+					    //     if(passField.type === "password"){
+					    //       passField.type = "text";
+					    //       showBtn.classList.add("hide-btn");
+					    //     }else{
+					    //       passField.type = "password";
+					    //       showBtn.classList.remove("hide-btn");
+					    //     }
+					    //   });
+				     //  }
+
+				    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
