@@ -39,16 +39,16 @@
                 
                 <input style="height: 50%;
                          
-                           margin-top: 25px;
-                           margin-left: px;
+                           margin-top: 24px;
+                           margin-left: 0px;
                            margin-right: 0px;
                            padding: 0px 5px 0px 5px;
                            border-radius: 5px;
                            border: none;
                            color: #fff;
                            font-size: 15px;
-                           font-weight: 500;
-                           letter-spacing: 1px;
+                           font-weight: 600;
+                           letter-spacing: 1.5px;
                            cursor: pointer;
                            transition: all 0.3s ease;
                            background: linear-gradient(135deg, #606c88, #3f4c6b); 
@@ -63,12 +63,12 @@
                            margin-left: px;
                            margin-right: 0px;
                            padding: 0px 5px 0px 5px;
-                           border-radius: 5px;
+                           border-radius: 4px;
                            border: none;
                            color: #fff;
                            font-size: 15px;
                            font-weight: 500;
-                           letter-spacing: 1px;
+                           letter-spacing: 1.5px;
                            cursor: pointer;
                            transition: all 0.3s ease;
                            background: linear-gradient(135deg, #606c88, #3f4c6b); 
