@@ -66,8 +66,8 @@ echo "Error:" .mysqli_error($connection);
       min-height: 100%;
       }
       body, div, form, input, select, textarea, p { 
-      padding: 0;
-      margin: 0;
+      padding: 1;
+      margin: 1;
       outline: none;
       font-family: Roboto, Arial, sans-serif;
       font-size: 14px;
@@ -76,7 +76,7 @@ echo "Error:" .mysqli_error($connection);
       }
       h1 {
       position: absolute;
-      margin: 0;
+      margin: 1;
       font-size: 36px;
       color: #fff;
       z-index: 2;
@@ -86,19 +86,19 @@ echo "Error:" .mysqli_error($connection);
       justify-content: center;
       align-items: center;
       height: inherit;
-      padding: 200px;
+      padding: 195px;
       padding-top: 50px;
       }
       form {
       width: 100%;
-      padding: 20px;
+      padding: 19px;
       border-radius: 6px;
       background: #D3D3D3;
       box-shadow: 0 0 20px 0 #333; 
       }
       .banner {
       position: relative;
-      height: 210px;
+      height: 211px;
     
       display: flex;
       justify-content: center;
@@ -115,15 +115,15 @@ echo "Error:" .mysqli_error($connection);
       input, textarea, select {
       margin-bottom: 10px;
       border: 1px solid #ccc;
-      border-radius: 3px;
+      border-radius: 4px;
       }
       input {
       width: calc(100% - 10px);
-      padding: 5px;
+      padding: 4px;
       }
       select {
       width: 100%;
-      padding: 7px 0;
+      padding: 7px ;
       background: transparent;
       }
       textarea {
