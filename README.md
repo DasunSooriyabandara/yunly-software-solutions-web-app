@@ -1,4 +1,4 @@
-# yunly-software-solutions
+# yunly-software-solutions-web-app
 A web application that can manage functions like attendance, leave, and inventory of an organization   Technologies MySQL, JavaScript, Bootstrap, HTML, CSS
 
 <h2>**Introduction**</h2>
