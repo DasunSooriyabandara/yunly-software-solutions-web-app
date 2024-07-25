@@ -1,10 +1,12 @@
 # yunly-software-solutions
 A web application that can manage functions like attendance, leave, and inventory of an organization   Technologies MySQL, JavaScript, Bootstrap, HTML, CSS
 
-Introduction
+<h2>**Introduction**</h2>
 Welcome to our comprehensive web application designed to streamline the management of organizational functions such as attendance tracking, leave management, and inventory control. This application is tailored to meet the needs of various user types within an organization, ensuring a seamless and efficient workflow. Leveraging modern web technologies, our solution offers an intuitive and user-friendly interface that simplifies administrative tasks and enhances productivity.
 
-User Types
+
+<hr/>
+<h2>User Types</h2>
 **Administrator**
 Manages user accounts and permissions
 Oversees overall system operations and settings
@@ -25,7 +27,8 @@ Manages inventory records
 Updates stock levels and tracks usage
 Generates inventory reports
 
-**Used Technologies**
+<hr/>
+<h2>**Used Technologies**</h2>
 **MySQL**
 Utilized as the database management system for storing and retrieving data related to attendance, leave, and inventory. MySQL ensures data integrity and provides robust support for complex queries.
 
